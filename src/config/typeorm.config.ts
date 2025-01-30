@@ -17,7 +17,7 @@ import {
   TYPEORM_OPTIONS,
 } from './config.constant';
 
-dotenvConfig({ path: `.env.${process.env.STAGE}.${process.env.ENV}` });
+dotenvConfig({ path: `.env` });
 const configService = new ConfigService();
 
 export const typeormOpts: TypeOrmModuleOptions | Promise<TypeOrmModuleOptions> =

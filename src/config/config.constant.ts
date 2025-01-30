@@ -2,7 +2,7 @@ export const PORT = 'PORT';
 
 export const ENVIRONMENT = 'ENVIRONMENT';
 
-export const MSSQL = 'MSSQL';
+export const MSSQL = 'mssql';
 export const MSSQL_HOST = 'MSSQL_HOST';
 export const MSSQL_PORT = 'MSSQL_PORT';
 export const MSSQL_USERNAME = 'MSSQL_USERNAME';
